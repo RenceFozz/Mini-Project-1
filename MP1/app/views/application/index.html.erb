@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<title>Connect4!</title>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="des.css">
+	<script src="data.js"></script>
+	<script src="mouse.js"></script>
+	<script src="checker.js"></script>
+	<script src="first.js">
+		init();
+		getPosition();
+	</script>
+</head>
+<body>
+	<center>
+		<div id="title">
+			<font face = "American Typewriter" size = "5">The Connect4! Game</font>
+		</div>
+		<div id="status">
+			<font face = "Century Gothic" size = "5" id="statusID">Player 1's Turn
+			</font>
+		</div>
+		<div id="board">
+			<canvas id="myCanvas" width="616" height="528" style="border:1px solid #000000;">
+			</canvas>
+		</div>
+	</center>
+</body>
+</html>

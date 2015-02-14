@@ -1,0 +1,13 @@
+#status
+{
+	float: left;
+	margin-left: 20px;
+	margin-top: 100px;
+	margin-right: 10px;
+}
+
+#board
+{
+	float: right;
+	margin-right: 325px;
+}
